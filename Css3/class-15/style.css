@@ -1,0 +1,26 @@
+/* #custom-btn {
+    background-color: orange;
+} */
+
+/* .btn-primary {
+    color: green;
+    background-color: white;
+} */
+
+
+.navbar {
+    background-color: blueviolet !important;
+}
+
+/* .last-li {
+    display: none;
+} */
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+div {
+    color: black !important;
+}

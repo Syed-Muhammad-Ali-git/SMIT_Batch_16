@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background-image: url("./images/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .container {
+    background-color: blue;
+    padding: 10px 0px;
+}
+
+h1 , h2 {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+} */
+
+ul {
+    background-color: blue;
+    text-align: center;
+    height: 10vh;
+}
+
+li {
+    font-family: sans-serif;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: capitalize;
+    line-height: 10vh;
+}

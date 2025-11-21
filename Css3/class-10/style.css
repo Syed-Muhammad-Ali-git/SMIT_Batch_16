@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+} */
+
+/* .innerDiv {
+    width: 33.3%;
+} */
+
+/* .section-1 {
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.section-2 {
+    background-color: orange;
+    flex-grow: 1;
+}
+
+.section-3 {
+    background-color: green;
+    flex-grow: 1;
+} */
+
+
+/* .container { */
+    /* background-color: green; */
+    /* height: 50vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+/* } */
+
+
+
+.container {
+    /* height: 50vh; */
+    background-color: lightgreen;
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.innerDiv {
+    /* height: 10vh; */
+    width: 15%;
+    border: 1px solid black;
+}
+
+.section-1 {
+    background-color: blue;
+}
+
+.section-2 {
+    background-color: orange;
+}
+
+.section-3 {
+    background-color: green;
+}

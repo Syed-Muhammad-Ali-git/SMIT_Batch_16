@@ -1,0 +1,45 @@
+/* li {
+    text-transform: capitalize;
+    list-style-type: none;
+    list-style-type: upper-alpha;
+} */
+
+
+/* div {
+    width: 50%;
+}
+
+li {
+    list-style-position: inside;
+    list-style-position: outside;
+} */
+
+
+input {
+    border: 1px solid blue;
+    /* border-radius: 2px; */
+    color: blue;
+    padding: 5px;
+    width: 30%;
+    outline: none;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+
+button {
+    color: black;
+    background-color: yellow;
+    font-family: sans-serif;
+    width: 20%;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin: 15px 0px;
+}

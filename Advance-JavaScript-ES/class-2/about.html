@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="fetchData()">
+    <h1> About </h1>
+    <h2 id="show-user"></h2>
+
+    <script>
+
+        var showDataEl = document.getElementById("show-user");
+
+        function fetchData() {
+            var getData = localStorage.getItem("User");
+            var parseData = JSON.parse(getData);
+            if (parseData) {
+                showDataEl.innerHTML =
+                    parseData.email.slice(0, parseData.email.indexOf('@'));
+            };
+        };
+
+        // window.onload = fetchData();
+        window.location.reload()
+
+    </script>
+</body>
+
+</html>

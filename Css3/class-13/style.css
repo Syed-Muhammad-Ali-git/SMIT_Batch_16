@@ -1,0 +1,110 @@
+/*
+div {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 3s;
+    transition: width 2s, height 4s;
+}
+
+div:active {
+    width: 300px;
+    height: 400px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%; */
+/* transform: rotate(deg120); */
+
+/* transition: width 2s, height 2s, transform 2s;
+} */
+
+
+/* div:hover {
+    height: 300px;
+    width: 300px;
+    transform: rotate(180deg);
+} */
+
+
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* padding: 10px 0px; */
+}
+
+.container>div {
+    margin: 10px 0px;
+    /* height: 300px;
+    width: 300px; */
+    overflow: hidden;
+}
+
+.lion {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: .3s transform
+}
+
+.lion:hover {
+    transform: scale(2, 2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* img {
+    height: 300px;
+    width: 300px;
+    margin: 10%;
+    transition: 3s transform;
+}
+
+img:hover {
+    transform: scale(2, 2)
+} */

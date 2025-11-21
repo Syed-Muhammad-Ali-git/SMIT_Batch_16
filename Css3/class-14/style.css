@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {
+        color: black;
+        background-color: white
+    }
+
+    25% {
+        color: blue;
+        background-color: yellow;
+        font-size: 38px;
+    }
+
+    50% {
+        color: white;
+        background-color: red;
+        font-size: 46px;
+    }
+
+    75% {
+        font-style: italic;
+        color: green;
+        background-color: lightgreen
+    }
+};

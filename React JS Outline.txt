@@ -1,0 +1,12 @@
+React JS Course Outline: (Topics completed till yet)
+
+1: Installation React with Vite.
+2: How react works and understanding folder structure, What is webpack and budler.
+3: React Router.
+4: Routing between pages in React.
+5: Props in React.
+6: React Hooks (useState Hook).
+7: Virtual DOM vs Actual DOM.
+8: Reconciliation in react.
+9: Listing in react.
+10: Ternary operator in react

@@ -1,0 +1,32 @@
+Note: JavaScript Exam:
+
+Create a simple banking system using a Map to store account information. The system should have the following features:
+
+Account Creation: Create a new account with a unique account number, account holder's name, and an initial balance.
+Deposit: Deposit a certain amount into an existing account.
+Withdrawal: Withdraw a certain amount from an existing account.
+Balance Inquiry: Display the current balance of an account.
+Account Deletion: Delete an existing account.
+Requirements:
+
+Use a Map to store account information, where the key is the account number and the value is an object containing the account holder's name and balance.
+Implement the above features using methods on the Map.
+Use JavaScript's built-in Map class to create the map.
+Use console.log statements to display the results of each operation.
+Example Use Cases:
+
+Create an account with account number 12345, account holder's name "John Doe", and an initial balance of 1000.
+Deposit 500 into account 12345.
+Withdraw 200 from account 12345.
+Display the current balance of account 12345.
+Delete account 12345.
+Deliverables:
+
+A single JavaScript file containing the implementation of the banking system using a Map.
+A brief explanation of how the code works and how the Map is used to store and retrieve account information.
+Grading Criteria:
+
+Correctness: Does the code implement the required features correctly?
+Code Quality: Is the code well-organized, readable, and maintainable?
+Use of Map: Is the Map used effectively to store and retrieve account information?
+I hope this assignment helps you practice using the new Map in JavaScript!

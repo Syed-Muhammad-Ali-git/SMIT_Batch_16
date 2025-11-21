@@ -1,0 +1,71 @@
+/*
+Top
+1: Universal selector
+2: css var
+3: font face external
+
+Bottom
+Animation
+Res Design
+*/
+
+:root {
+    --yellow: yellow;
+    --blue: blue;
+    --setTo_400: 400px;
+    --setTo_250: 250px;
+    --noRepeat: no-repeat;
+}
+
+/*
+.parent {
+    height: var(--setTo_400);
+    width: var(--setTo_400);
+    background-color: var(--yellow);
+}
+
+.child {
+    height: var(--setTo_250);
+    width: var(--setTo_250);
+    background-color: yellow;
+    background-image: url('./images/cover.jpeg');
+    background-repeat: var(--noRepeat);
+    background-size: contain;
+    opacity: 0.5;
+}
+    */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .box1 {
+    background-color: blue;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.7;
+} */
+
+/* .box2 {
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+} */
+
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
+.child-1 {
+    background-color: blue;
+}
+
+.child-2 {
+    background-color: red;
+}
+
+.child-3 {
+    background-color: yellow;
+}

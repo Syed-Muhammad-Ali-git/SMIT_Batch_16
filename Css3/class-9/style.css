@@ -1,0 +1,53 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* ul {
+    background-color: blue;
+    text-align: center;
+    height: 15vh;
+    height: 60px;
+}
+
+li {
+    display: inline-block;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: wheat;
+    font-size: 20px;
+    padding: 0 10px;
+    line-height: 60px;
+} */
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* a:hover {
+    color: red;
+    text-decoration: underline;
+} */
+
+a:visited {
+    color: black;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    color: red;
+    background-color: yellow;
+}
+
+input {
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid blue;
+    border-radius: 5px;
+}

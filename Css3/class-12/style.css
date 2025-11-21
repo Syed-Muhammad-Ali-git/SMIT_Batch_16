@@ -1,0 +1,94 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* .box { */
+/* background-color: yellow; */
+/* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; */
+
+/* Top to bottom */
+/* background: linear-gradient(to bottom, aqua, blue, black); */
+/* background: linear-gradient(to bottom, yellow, black); */
+
+/* left to right */
+/* background: linear-gradient(to right, aqua, blue); */
+
+/* background: radial-gradient(circle, blue, lightblue); */
+/* } */
+
+/* h1 {
+    color: white; */
+/* } */
+
+/* button:hover {
+    background-color: blueviolet;
+} */
+
+/* ul li:first-child {
+    color: blue;
+}
+
+ul li:last-child {
+    color: orange;
+} */
+
+/* li {
+    font-family: monospace;
+    text-transform: capitalize;
+}
+
+ul li:nth-child(even) {
+    color: darkblue;
+}
+
+ul li:nth-child(odd) {
+    color: red;
+} */
+
+
+
+/* p::first-line {
+    font-weight: bold;
+    color: blue;
+} */
+
+/* .read-more {
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+
+.read-more::before {
+    content: "😔 ";
+    padding: 0px 5px;
+}
+
+.read-more::after {
+    content: "😃";
+} */
+
+
+
+div {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 2%;
+    background-color: whitesmoke;
+    box-shadow: inset 5px 5px 5px black;
+}
+
+div h1 {
+    color: blue;
+    font-family: sans-serif;
+    /* text-shadow: 2px 2px 2px blueviolet; */
+    text-shadow: -5px -5px 5px blue;
+}

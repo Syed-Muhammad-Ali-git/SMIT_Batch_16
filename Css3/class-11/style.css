@@ -1,0 +1,76 @@
+h1 {
+    height: 50vh;
+    border-width: 10px;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+    border-image: url("./images/custom-border.png") 30 stretch;
+}
+
+/* :root {
+    --blue-color: blue;
+    --green-color : green;
+    --defFont: 20px;
+    --center: center;
+    --bgColor: orange;
+} */
+
+/* * {
+    background-color: var(--bgColor);
+} */
+
+
+/* h1 {
+    color: var(--blue-color);
+    text-align: var(--center);
+}
+
+
+h2 {
+    color: var(--green-color);
+    text-transform: capitalize;
+}
+
+p {
+    font-size: var(--defFont)
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url("./heading.css"); */
+
+h1 {
+    color: blue;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}

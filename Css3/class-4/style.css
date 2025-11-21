@@ -1,0 +1,39 @@
+div {
+    background-color: #EB397E;
+    height: 300px;
+    width: 300px;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* width: 50%; */
+    /* max-width: 75%; */
+    /* width: 100%; */
+    /* border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+    /* border: 2px solid blue; */
+    /* border-bottom-width: 5px; */
+    /* border-right-color: blue; */
+    /* border-radius: 5px; */
+
+    /* border-top-color: blue;
+    border-top-width: 2px;
+    border-top-style: solid; */
+
+    border: 3px double red;
+}
+
+p {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* border: 1px dashed red; */
+    /* padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px; */
+    /* text-align: center; */
+    /* padding: 8px; */
+    /* padding: 5px 5px 0px 10px; */
+    padding: 5px 10px;
+}
