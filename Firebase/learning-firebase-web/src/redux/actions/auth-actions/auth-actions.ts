@@ -1,8 +1,10 @@
 // Auth action functions are defined here...!
 
 import { collection, addDoc } from "firebase/firestore";
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import { auth, db } from "@/lib/firebase";
+import { LOGIN_USER, LOG_OUT_USER } from "@/redux/reducers/auth-reducer/auth-reducer";
+import { setCookie, deleteCookie } from "cookies-next";
 
 interface UserData {
   name?: string;
@@ -41,7 +43,7 @@ const signUpUser = (userData: UserData) => {
 
 // Note: Log in user...!
 const logInUser = (userData: UserData) => {
-  return async () => {
+  return async (dispatch) => {
     console.log("User: ", userData);
 
     try {
@@ -51,6 +53,22 @@ const logInUser = (userData: UserData) => {
         userData?.password
       );
       console.log('Login response: ', res);
+
+      const saveUser = {
+        email: res?.user?.email,
+        uid: res?.user?.uid
+      };
+
+      const userToken = await res?.user?.getIdToken();
+      if (userToken) {
+        // Saving token...!
+        setCookie('token', userToken);
+
+        // Saving auth user in redux...!
+        dispatch(LOGIN_USER(saveUser));
+
+        window.location.reload();
+      }
     }
 
     catch (error: any) {
@@ -59,4 +77,22 @@ const logInUser = (userData: UserData) => {
   };
 };
 
-export { signUpUser, logInUser };
+// Note: Log out user...!
+const logOutUser = () => {
+  return async (dispatch) => {
+    
+    // Removing user auth from FB authentication...!
+    await signOut(auth);
+  
+    // Removing user from redux...!
+    dispatch(LOG_OUT_USER());
+
+    // Removing user cookies...!
+    deleteCookie('token');
+
+    alert('You have logged out successfully');
+    window.location.reload();
+  }
+}
+
+export { signUpUser, logInUser, logOutUser };

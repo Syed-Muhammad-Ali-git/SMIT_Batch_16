@@ -15,16 +15,16 @@ const RootLayout = ({
 
   const fetchAuthUser = () => {
     onAuthStateChanged(auth, async (user) => {
-      console.log('User: ', user);
-      console.log(user?.uid)
+      // console.log('Auth User Status: ', user);
+      // console.log(user?.uid)
 
-      const fbToken = await user?.getIdToken();
-      console.log('Token: ', fbToken);
+      // const fbToken = await user?.getIdToken();
+      // console.log('Token: ', fbToken);
 
-      if (user && fbToken) {
-        // Saving token...!
-        setCookie('token', fbToken);
-      }
+      // if (user && fbToken) {
+      //   // Saving token...!
+      //   setCookie('token', fbToken);
+      // }
     });
   };
 
